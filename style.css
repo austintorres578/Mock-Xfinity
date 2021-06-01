@@ -1,0 +1,366 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+/*NAV START*/
+
+}
+@media(max-width:976px){
+    .top-nav div{
+        display: none;
+    }
+    .bottom-nav div{
+        display: none;
+    }
+}
+@media(min-width:976px){
+    .mobile-nav div{
+        display: none;
+    }
+    .bottom-nav{
+        display: none;
+    }
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+}
+#active-link{
+    color: white;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.top-links{
+    font-size: 12px;
+}
+.top-links ul{
+    display: flex;
+    list-style: none;
+}
+.top-links ul li{
+    margin-right: 25px;
+}
+.top-links ul li a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    transition: 1ms;
+}
+.top-links ul li a:hover{
+    color: white;
+}
+.sign-in{
+    font-size: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 100px;
+}
+.sign-in img{
+    margin-right: 15px;
+}
+.sign-in a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    transition: 1ms;
+}
+.sign-in a:hover{
+    color: white;
+}
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    border-top: solid gray;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom-links{
+    display: flex;
+}
+.bottom-links ul{
+    display: flex;
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bottom-links ul li{
+    margin-right: 25px;
+}
+.bottom-links ul li a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    transition: 1ms;
+}
+.bottom-links ul li a:hover{
+    color: white;
+}
+.shopping{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.shopping img{
+    margin-right: 20px;
+}
+.shopping a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-size: 14px;
+    transition: 1ms;
+}
+.shopping a:hover{
+color: white;
+}
+.en-lang{
+    border-right: solid lightgray;
+    padding-right: 5px;
+}
+.es-lang{
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.mobile-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.m-nav-right{
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.m-nav-right img{
+    margin-right: 15px;
+}
+.m-nav-left img{
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
+
+/*NAV END*/
+
+/*HERO START*/
+
+@media(max-width:1140px){
+    .hero-text{
+        font-size: 14px;
+    }
+}
+@media(max-width:1089px){
+    .hero-text .hero-banner{
+        font-size: 30px;
+    }
+}
+@media(max-width:976px){
+    .hero-text{
+        display: none;
+    }
+    .l-hero{
+        display: none;
+    }
+}
+@media(min-width:976px){
+    .s-hero{
+        display: none;
+    }
+    .m-hero-text{
+        display: none;
+    }
+}
+
+.hero{
+    position: relative;
+}
+.l-hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.s-hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.hero-text{
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    left: 10%;
+    width: 45%;
+}
+.hero-banner{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.featured-deal{
+    line-height: 1.5;
+    color: rgb(70, 70, 70);
+}
+.hero-pricing{
+    display: flex;
+}
+.price{
+font-size: 45px;
+margin-top: -40px;
+margin-bottom: -50px;
+}
+.price-sub{
+    width: 30%;
+    font-size: 12px;
+    color: rgb(70, 70, 70);
+}
+.hero-text button{
+    display: block;
+    padding: 15px 45px 15px 45px;
+    margin-top: 20px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    background-color: #0272b6;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hero-text button:hover{
+    background-color: #01568b;
+}
+.price-info-link{
+    text-decoration: none;
+    font-size: 12px;
+    color: #0272b6;
+}
+.button-sub{
+    font-size: 12px;
+    margin-top: 25px;
+    color: rgb(70, 70, 70);
+}
+.m-hero-text{
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 120px;
+    border-bottom: solid gray;
+}
+.m-hero-banner{
+    font-size: 30px;
+    margin-bottom: -5px;
+    margin-top: -10px;
+    line-height: 1.5;
+    color: rgb(70, 70, 70);
+}
+.m-featured-deal{
+    line-height: 1.5;
+    color: rgb(70, 70, 70);
+    margin-bottom: 0px;
+}
+.m-hero-pricing{
+    display: flex;
+    margin-bottom: 0px;
+}
+.m-dollar{
+    margin-left: auto;
+}
+.m-price{
+    font-size: 40px;
+    margin-top: -35px;
+    margin-bottom: -50px
+}
+.m-price-sub{
+    margin-right: auto;
+    font-size: 12px;
+    text-align: left;
+    width: 30%;
+}
+.m-price-info{
+    width: 30%;
+    font-size: 12px;
+    margin-top: 0px;
+    color: #0272b6;
+    text-decoration: none;
+}
+.m-hero-text button{
+    display: block;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 15px 45px 15px 45px;
+    background-color: #0272b6;
+    color: white;
+    border: none;
+}
+.m-hero-text button:hover{
+    background-color: #01568b;
+}
+.m-button-sub{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: rgb(70, 70, 70);
+}
+
+/*HERO END*/
+
+/*MAIN START*/
+
+.offer-section{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    color: rgb(70, 70, 70);
+    width: 70%;
+}
+
+.offer-banner{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.offer-text{
+    line-height: 1.5;
+}
+
+.offer-text a{
+    text-decoration: none;
+    color: #0272b6;
+}
+
+.offer-section button{
+    font-size: 16px;
+    color: #0272b6;
+    border: solid #0272b6;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px 35px 10px 35px;
+    background-color: white;
+    cursor: pointer;
+}
+.offer-section button:hover{
+    background-color: #0272b6;
+    color: white;
+}
+.main-images div{
+    position: relative;
+}
+.fed-int{
+    position: relative;
+}
+.fed-int img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fed-int-text{
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 50px;
+}
