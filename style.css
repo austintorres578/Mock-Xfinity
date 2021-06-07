@@ -6,15 +6,18 @@ body{
 /*NAV START*/
 
 }
-@media(max-width:976px){
+@media(max-width:1000px){
     .top-nav div{
         display: none;
     }
     .bottom-nav div{
         display: none;
     }
+    .navbar .bottom-nav{
+        border: none;
+    }
 }
-@media(min-width:976px){
+@media(min-width:1000px){
     .mobile-nav div{
         display: none;
     }
@@ -45,7 +48,7 @@ body{
 }
 .top-links ul li a{
     text-decoration: none;
-    color: rgb(156, 156, 156);
+    color: #9ba4aa;
     transition: 1ms;
 }
 .top-links ul li a:hover{
@@ -62,7 +65,7 @@ body{
 }
 .sign-in a{
     text-decoration: none;
-    color: rgb(156, 156, 156);
+    color: #9ba4aa;
     transition: 1ms;
 }
 .sign-in a:hover{
@@ -72,7 +75,7 @@ body{
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-    border-top: solid gray;
+    border-top: solid #9ba4aa;
     width: 94%;
     margin-left: auto;
     margin-right: auto;
@@ -91,7 +94,7 @@ body{
 }
 .bottom-links ul li a{
     text-decoration: none;
-    color: rgb(156, 156, 156);
+    color: #9ba4aa;
     transition: 1ms;
 }
 .bottom-links ul li a:hover{
@@ -106,7 +109,7 @@ body{
 }
 .shopping a{
     text-decoration: none;
-    color: rgb(156, 156, 156);
+    color: #9ba4aa;
     font-size: 14px;
     transition: 1ms;
 }
@@ -114,7 +117,7 @@ body{
 color: white;
 }
 .en-lang{
-    border-right: solid lightgray;
+    border-right: solid #9ba4aa;
     padding-right: 5px;
 }
 .es-lang{
@@ -309,6 +312,61 @@ margin-bottom: -50px;
 
 /*MAIN START*/
 
+@media (max-width: 990px){
+    .fed-text .fed-int-sub{
+        font-size: 25px;
+    }
+}
+@media (max-width: 926px){
+    .main-images .fed-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-images .channel-sec .channel-container .peacock{
+        height: 575px;
+        width: 475px;
+    }
+    .main-images .channel-sec .channel-container .disney{
+        height: 575px;
+        width: 475px;
+    }
+    .main-images .channel-sec .channel-container .peacock p{
+        font-size: 20px;
+    }
+    .main-images .channel-sec .channel-container .disney p{
+        font-size: 20px;
+    }
+    
+}
+@media(max-width: 827px){
+    .main-images{
+        display: none;
+    }
+}
+
+@media (max-width: 1045px){
+    .main-images .channel-sec{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .main-images .phone-sec{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+}
+@media (max-width: 1066px){
+    .main-images .product-sec .product-image-container .product-images div img{
+        height: 100px;
+        width: 170px;
+    }
+}
+@media (max-width: 923px){
+    .main-images .product-sec .product-image-container .product-images div img{
+        height: 70px;
+        width: 140px;
+    }
+}
 .offer-section{
     text-align: center;
     margin-left: auto;
@@ -347,20 +405,271 @@ margin-bottom: -50px;
     background-color: #0272b6;
     color: white;
 }
-.main-images div{
-    position: relative;
+.fed-container{
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
 }
-.fed-int{
-    position: relative;
+.fed-image{
+    background-image: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/One-Up-Tile/04262021/Tile_desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
 }
-.fed-int img{
-    display: block;
+.fed-text{
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-right: 20px;
+    width: 80%;
+}
+.fed-int-header{
+    font-size: 20px;
+}
+.fed-int-sub{
+    font-size: 28px;
+    margin-top: 0px;
+    line-height: 1.5;
+    width: 50%;
+}
+.fed-int-button{
+    padding: 15px 20px 15px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: solid #0272b6;
+    color: #0272b6;
+}
+.channel-sec{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.channel-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.peacock{
+    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/Two-Up-Tiles/01142021_NED/HP_Peacock_OfficeUpdate_PromoTile_Mobile.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 700px;
+    width: 600px;
+    
+    
+}
+.peacock img{
+    margin-top: 25px;
+}
+.peacock p{
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.peacock button{
+    background-color: #0272b6;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+.disney{
+    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/Two-Up-Tiles/04152021/DisneyHomePageRightPromoDesktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-left: 20px;
+    height: 700px;
+    width: 600px;
+}
+.disney img{
+    margin-top: 25px;
+}
+.disney p{
+    font-size: 25px;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.disney button{
+    border: solid white;
+    color: white;
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+.phone-sec{
+    padding-left: 80px;
+    padding-right: 80px;
     margin-left: auto;
     margin-right: auto;
 }
-.fed-int-text{
-    position: sticky;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 50px;
+.phone-img{
+    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/One-Up-Tile/04152021/XM40CoreHomepageDesktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 45px;
+    height: 375px;
+    width: 100%;
+}
+.phone-text{
+    padding-top: 80px;
+    padding-left: 100px;
+    width: 350px;
+}
+.phone-banner{
+    color: white;
+    font-size: 20px;
+}
+.phone-sub{
+    color: white;
+    font-size: 25px;
+}
+.phone-button{
+    padding: 12px 30px 12px 30px;
+    font-size: 16px;
+    color: white;
+    border: solid white;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+}
+.product-text{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 60px;
+}
+.product-image-container{
+  width: 100%;
+}
+.product-images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-images div{
+    margin-right: 20px;
+}
+.product-images div img{
+    height: 130px;
+    width: 200px;
+}
+.product-images div p{
+    margin-bottom: 25px;
+}
+.product-images div a{
+    text-decoration: none;
+    color: #0272b6;
+}
+.links-sec{
+    background-color: #000;
+    margin-top: 50px;
+}
+.links-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+.top-dir-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-dir-links div ul li{
+    list-style: none;
+    line-height: 2;
+    font-size: 15px;
+}
+.top-dir-links div ul li a{
+    text-decoration: none;
+    color: #9ba4aa;
+    transition: .5s;
+}
+.top-dir-links div ul li a:hover{
+    color: white;
+}
+.bottom-dir-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-dir-links div ul li{
+    list-style: none;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.bottom-dir-links div ul li a{
+    text-decoration: none;
+    color: #9ba4aa;
+    transition: .5s;
+}
+.bottom-dir-links div ul li a:hover{
+    color: white;
+}
+
+#title{
+    color: white;
+}
+
+#inv{
+    color: #000;
+}
+.footer{
+    background-color: #191919;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.footer-links div ul{
+    display: flex;
+}
+.footer-links div ul li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.footer-links div ul{
+    margin-top: 25px;
+}
+.footer-links div ul li a{
+    text-decoration: none;
+    color: #9ba4aa;
+    transition: .5s;
+}
+.footer-links div ul li a:hover{
+    color: white;
+}
+.media-imgs{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bottom-footer{
+    border-top: solid #9ba4aa;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bottom-footer a{
+    font-size: 14px;
+    color: #9ba4aa;
+    text-decoration: none;
+    transition: .5s;
+}
+.bottom-footer a:hover{
+    color: white;
 }
