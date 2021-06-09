@@ -310,7 +310,7 @@ margin-bottom: -50px;
 
 /*HERO END*/
 
-/*MAIN START*/
+/*MAIN IMAGES START*/
 
 @media (max-width: 990px){
     .fed-text .fed-int-sub{
@@ -340,6 +340,11 @@ margin-bottom: -50px;
 }
 @media(max-width: 827px){
     .main-images{
+        display: none;
+    }
+}
+@media(min-width: 827px){
+    .mobile-images{
         display: none;
     }
 }
@@ -441,6 +446,161 @@ margin-bottom: -50px;
     border-radius: 50px;
     cursor: pointer;
     border: solid #0272b6;
+    color: #0272b6;
+}
+.mobile-fed-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mobile-fed-img{
+    background-image: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/One-Up-Tile/04262021/Tile_mobile.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 650px;
+}
+.mobile-fed-text{
+    text-align: center;
+}
+.mobile-fed-int-header{
+    font-size: 20px;
+    padding-top: 50px; 
+}
+.mobile-fed-int-sub{
+    font-size: 28px;
+    margin-top: 0px;
+    line-height: 1.5;
+}
+.mobile-fed-int-button{
+    padding: 15px 20px 15px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: solid #0272b6;
+    color: #0272b6;
+    
+}
+.mobile-channel-sec{
+padding-left: 20px;
+padding-right: 20px;
+}
+.mobile-channel-container{
+    margin-top: 20px;
+}
+.mobile-peacock{
+    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/Two-Up-Tiles/01142021_NED/HP_Peacock_OfficeUpdate_PromoTile_Mobile.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+.mobile-peacock img{
+    margin-top: 25px;
+}
+.mobile-peacock p{
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.mobile-peacock button{
+    background-color: #0272b6;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+.mobile-disney{
+    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/Two-Up-Tiles/04152021/DisneyHomePageRightPromoDesktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    height: 650px;
+}
+.mobile-disney img{
+    margin-top: 25px;
+}
+.mobile-disney p{
+    font-size: 25px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mobile-disney button{
+    border: solid white;
+    color: white;
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+.mobile-phone-sec{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mobile-phone-img{
+    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/One-Up-Tile/04152021/XM40CoreHomepageMobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 650px;
+}
+
+.mobile-phone-text{
+    text-align: center;
+}
+.mobile-phone-banner{
+    padding-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+.mobile-phone-sub{
+    color: white;
+    font-size: 25px;
+}
+.mobile-phone-button{
+    padding: 12px 30px 12px 30px;
+    font-size: 16px;
+    color: white;
+    border: solid white;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+}
+.mobile-product-text{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+.mobile-product-banner{
+    font-size: 30px;
+}
+.mobile-product-sub{
+    font-size: 20px;
+}
+
+.mobile-product-images div{
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+.mobile-product-images div p{
+    font-size: 20px;
+    color: rgb(80, 79, 79);
+}
+.mobile-product-images div a{
+    text-decoration: none;
     color: #0272b6;
 }
 .channel-sec{
@@ -573,6 +733,16 @@ margin-bottom: -50px;
     text-decoration: none;
     color: #0272b6;
 }
+@media(max-width: 827px){
+    .links-sec{
+        display: none;
+    }
+}
+@media(min-width: 827px){
+    .mobile-links{
+        display: none;
+    }
+}
 .links-sec{
     background-color: #000;
     margin-top: 50px;
@@ -626,6 +796,191 @@ margin-bottom: -50px;
 #inv{
     color: #000;
 }
+.mobile-links{
+    background-color: #000;
+    padding-bottom: 20px;
+}
+.mobile-title-button-iwt{
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-title-button-iwt div p{
+    margin-left: 10px;
+    text-decoration: solid;
+    color: white;
+    font-size: 12px;
+}
+.show-more-iwt{
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #000;
+    color: #0272b6;
+    cursor: pointer;
+}
+.show-less-iwt{
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #000;
+    color: #0272b6;
+    cursor: pointer;
+    display: none;
+}
+.visible-links-iwt li{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.visible-links-iwt li a{
+    text-decoration: none;
+    color: #9ba4aa;
+    transition: .5s;
+}
+.visible-links-iwt li a:hover{
+    color: white;
+}
+.hidden-links-iwt{
+    list-style: none;
+    display: none;
+}
+.hidden-links-iwt li{
+    margin-bottom: 15px;
+    margin-left: -30px;
+}
+.hidden-links-iwt li a{
+    text-decoration: none;
+    color: #9ba4aa;
+    transition: .5s;
+}
+.hidden-links-iwt li a:hover{
+    color: white;
+}
+.mobile-title-button-shop{
+    border-top: solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-title-button-shop div p{
+    margin-left: 10px;
+    text-decoration: solid;
+    color: white;
+    font-size: 12px;
+}
+.show-more-shop{
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #000;
+    color: #0272b6;
+    cursor: pointer;
+}
+.show-less-shop{
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #000;
+    color: #0272b6;
+    cursor: pointer;
+    display: none;
+}
+.visible-links-shop li{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.visible-links-shop li a{
+    text-decoration: none;
+    color: #9ba4aa;
+    transition: .5s;
+}
+.visible-links-shop li a:hover{
+    color: white;
+}
+.hidden-links-shop{
+    list-style: none;
+    display: none;
+}
+.hidden-links-shop li{
+    margin-bottom: 15px;
+    margin-left: -30px;
+}
+.hidden-links-shop li a{
+    text-decoration: none;
+    color: #9ba4aa;
+    transition: .5s;
+}
+.hidden-links-shop li a:hover{
+    color: white;
+}
+
+.mobile-title-button-ac{
+    border-top: solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-title-button-ac div p{
+    margin-left: 10px;
+    text-decoration: solid;
+    color: white;
+    font-size: 12px;
+}
+.show-more-ac{
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #000;
+    color: #0272b6;
+    cursor: pointer;
+}
+.show-less-ac{
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #000;
+    color: #0272b6;
+    cursor: pointer;
+    display: none;
+}
+.visible-links-ac li{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.visible-links-ac li a{
+    text-decoration: none;
+    color: #9ba4aa;
+    transition: .5s;
+}
+.visible-links-ac li a:hover{
+    color: white;
+}
+.hidden-links-ac{
+    list-style: none;
+    display: none;
+}
+.hidden-links-ac li{
+    margin-bottom: 15px;
+    margin-left: -30px;
+}
+.hidden-links-ac li a{
+    text-decoration: none;
+    color: #9ba4aa;
+    transition: .5s;
+}
+.hidden-links-ac li a:hover{
+    color: white;
+}
+@media(max-width: 948px){
+    .footer{
+        display: none;
+    }
+}
+@media(min-width: 948px){
+    .mobile-footer{
+        display: none;
+    }
+}
 .footer{
     background-color: #191919;
 }
@@ -671,5 +1026,41 @@ margin-bottom: -50px;
     transition: .5s;
 }
 .bottom-footer a:hover{
+    color: white;
+}
+.mobile-footer{
+    background-color: #191919;
+    text-align: center;
+}
+.mobile-footer div ul{
+    list-style: none;
+    padding-right: 40px;
+}
+.mobile-footer div ul li{
+    margin-bottom: 5px;
+}
+.mobile-footer div ul li a{
+    text-decoration: none;
+    color: #9ba4aa;
+    transition: .5s;
+}
+.mobile-footer div ul li a:hover{
+    color: white;
+}
+.mobile-media-imgs{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.mobile-copyright{
+    width: 100%;
+    border-top: solid #9ba4aa;
+    padding-bottom: 20px;
+}
+.mobile-copyright p a{
+    color: #9ba4aa;
+    transition: .5s;
+    text-decoration: none;
+}
+.mobile-copyright p a:hover{
     color: white;
 }
