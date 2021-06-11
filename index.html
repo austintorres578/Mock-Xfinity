@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="script.js"></script>
+    <title>Mock Xfinity</title>
 </head>
 <body>
 
@@ -33,12 +34,12 @@
         <div class="bottom-links">
             <a href="#"><img src="https://polaris.xfinity.com/images/svgs/xfinity_logo.svg" alt="" height="65px" width="65px"></a>
             <ul>
-            <li><a href="#">Internet</a></li>
-            <li><a href="#">TV & Streaming</a></li>
-            <li><a href="#">Mobile</a></li>
-            <li><a href="#">Home Security</a></li>
-            <li><a href="#">Phone</a></li>
-            <li><a href="#">All Deals</a></li>
+                <li><a href="#">Internet</a></li>
+                <li><a href="#">TV & Streaming</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Home Security</a></li>
+                <li><a href="#">Phone</a></li>
+                <li><a href="#">All Deals</a></li>
             </ul>
         </div>
         <div class="shopping">
@@ -54,7 +55,93 @@
         <div class="m-nav-right">
             <a href=""><img src="https://maxcdn.icons8.com/Share/icon/nolan/Shopping/shopping_cart1600.png" alt="" height="30px" width="35px"></a>
             <a href=""><img src="https://cdn.pixabay.com/photo/2015/10/01/11/30/magnifying-glass-966886_960_720.png" alt="" height="30px" width="35px"></a>
-            <a href=""><img src="C:\Users\19088\Documents\GitHub\Mock Xfinity\img\icons\misc-menu-512.png" alt="" height="35px" width="35px"></a>
+            <button id="hambutton" onclick="toggleham()"><img src="C:\Users\19088\Documents\GitHub\Mock Xfinity\img\icons\misc-menu-512.png" alt="" height="35px" width="35px"></button>
+        </div>
+    </div>
+    <div id="hammenu" class="hamburger-menu">
+        <div class="top-ham">
+            <div class="internet-button">
+                <button>
+                    <div>
+                        <p>Internet</p>
+                    </div>
+                    <div>
+                        <img src="https://www.downloadclipart.net/medium/caret-png-file.png" alt="" height="20px" width="20px">
+                    </div>
+                </button>
+            </div>
+            <div class="tv-stream-button">
+                <button>
+                    <div>
+                        <p>TV & Streaming</p>
+                    </div>
+                    <div>
+                        <img src="https://www.downloadclipart.net/medium/caret-png-file.png" alt="" height="20px" width="20px">
+                    </div>
+                </button>
+            </div>
+            <a href="#">Mobile</a>
+            <div class="home-security-button">
+                <button>
+                    <div>
+                        <p>Home Security</p>
+                    </div>
+                    <div>
+                        <img src="https://www.downloadclipart.net/medium/caret-png-file.png" alt="" height="20px" width="20px">
+                    </div>
+                </button>
+            </div>
+            <div class="home-phone-button">
+                <button>
+                    <div>
+                        <p>Home Phone</p>
+                    </div>
+                    <div>
+                        <img src="https://www.downloadclipart.net/medium/caret-png-file.png" alt="" height="20px" width="20px">
+                    </div>
+                </button>
+            </div>
+            <div class="all-deals-button">
+                <button>
+                    <div>
+                        <p>All Deals</p>
+                    </div>
+                    <div>
+                        <img src="https://www.downloadclipart.net/medium/caret-png-file.png" alt="" height="20px" width="20px">
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="bottom-ham">
+            <div class="lang-ham">
+                <a id="ham-active" href="#">En</a><a href="#">Es</a>
+            </div>
+            <div class="bottom-ham-links">
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">My Xfinity</a></li>
+                    <li><a href="#">Comcast Business</a></li>
+                    <li><a href="#">Find a Store</a></li>
+                </ul>
+            </div>
+            <div class="ham-icons">
+                <div>
+                    <button>
+                        <img src="https://th.bing.com/th/id/R40d05b625651a3fa6f42df847359231e?rik=OjjgDjpvCQz98g&riu=http://getdrawings.com/free-icon-bw/grey-email-icon-15.png&ehk=BBxSrTfwtods6dgRqo2KSzERGYo/wmoFsTcULu1HG5g=&risl=&pid=ImgRaw" alt="" height="30px" width="30px">
+                        <p>Email</p>
+                    </button>
+                </div>
+                <div>
+                    <button>
+                        <img src="https://www.materialui.co/materialIcons/hardware/tv_grey_192x192.png" alt="" height="30px" width="30px">
+                        <p>Xfinity Stream</p>
+                    </button>
+                </div>
+                <div>
+                    <a href="#"></a>
+                </div>
+            </div>
         </div>
     </div>
 </nav>
