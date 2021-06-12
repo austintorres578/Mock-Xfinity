@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Mock Xfinity</title>
 </head>
 <body>
@@ -449,8 +448,8 @@
                 <p>I WANT TO</p>
             </div>   
             <div>
-                <button class="show-more-iwt">Show More</button>
-                <button class="show-less-iwt">Show Less</button>
+                <button id="show-more-iwt"class="show-more-iwt" onclick="toggleshowiwt()">Show More</button>
+                <button id="show-less-iwt"class="show-less-iwt" onclick="toggleshowiwt()">Show Less</button>
             </div> 
         </div>
         <ul class="visible-links-iwt">
@@ -458,7 +457,7 @@
             <li><a href="#">Check Email & Voicemail</a></li>
             <li><a href="#">Manage My Account</a></li>
         </ul>
-        <ul class="hidden-links-iwt">
+        <ul id="hidden-links-iwt" class="hidden-links-iwt">
             <li><a href="#">Check TV Listings</a></li>
             <li><a href="#">Watch TV Online</a></li>
             <li><a href="#">Contact Customer Support</a></li>
@@ -485,8 +484,8 @@
                 <p>SHOP</p>
             </div>   
             <div>
-                <button class="show-more-shop">Show More</button>
-                <button class="show-less-shop">Show Less</button>
+                <button id="show-more-shop" class="show-more-shop" onclick="toggleshowshop()">Show More</button>
+                <button id="show-less-shop" class="show-less-shop" onclick="toggleshowshop()">Show Less</button>
             </div> 
         </div>
         <ul class="visible-links-shop">
@@ -494,7 +493,7 @@
             <li><a href="#">TV</a></li>
             <li><a href="#">Internet</a></li>
         </ul>
-        <ul class="hidden-links-shop">
+        <ul id="hidden-links-shop" class="hidden-links-shop">
             <li><a href="#">Voice</a></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">Xfinity Mobile</a></li>
@@ -513,8 +512,8 @@
                 <p>ABOUT COMCAST</p>
             </div>   
             <div>
-                <button class="show-more-ac">Show More</button>
-                <button class="show-less-ac">Show Less</button>
+                <button id="show-more-ac" class="show-more-ac" onclick="toggleshowac()">Show More</button>
+                <button id="show-less-ac" class="show-less-ac" onclick="toggleshowac()">Show Less</button>
             </div> 
         </div>
             <ul class="visible-links-ac">
@@ -522,7 +521,7 @@
                 <li><a href="#">Advertise with Us</a></li>
                 <li><a href="#">Careers</a></li>
             </ul>
-            <ul class="hidden-links-ac">
+            <ul id="hidden-links-ac" class="hidden-links-ac">
                 <li><a href="#">Press Rooms</a></li>
                 <li><a href="#">Corporate Site</a></li>
                 <li><a href="#">Customer Agreements and Policy</a></li>
@@ -589,5 +588,6 @@
     </div>
 </section>
 <!--MOBILE FOOTER END-->
+<script src="script.js"></script>
 </body>
 </html>

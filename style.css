@@ -27,6 +27,12 @@ body{
     .hamburger-menu{
         display: none;
     }
+    .top-ham{
+        display: none;
+    }
+    .bottom-ham{
+        display: none;
+    }
 }
 .navbar{
     background-color: black;
@@ -52,7 +58,6 @@ body{
 .top-links ul li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: 1ms;
 }
 .top-links ul li a:hover{
     color: white;
@@ -69,7 +74,6 @@ body{
 .sign-in a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: 1ms;
 }
 .sign-in a:hover{
     color: white;
@@ -977,7 +981,6 @@ padding-right: 20px;
 .top-dir-links div ul li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: .5s;
 }
 .top-dir-links div ul li a:hover{
     color: white;
@@ -996,7 +999,6 @@ padding-right: 20px;
 .bottom-dir-links div ul li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: .5s;
 }
 .bottom-dir-links div ul li a:hover{
     color: white;
@@ -1030,6 +1032,7 @@ padding-right: 20px;
     background-color: #000;
     color: #0272b6;
     cursor: pointer;
+    display: block;
 }
 .show-less-iwt{
     margin-top: 10px;
@@ -1048,7 +1051,6 @@ padding-right: 20px;
 .visible-links-iwt li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: .5s;
 }
 .visible-links-iwt li a:hover{
     color: white;
@@ -1064,7 +1066,6 @@ padding-right: 20px;
 .hidden-links-iwt li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: .5s;
 }
 .hidden-links-iwt li a:hover{
     color: white;
@@ -1087,6 +1088,7 @@ padding-right: 20px;
     background-color: #000;
     color: #0272b6;
     cursor: pointer;
+    display: block;
 }
 .show-less-shop{
     margin-top: 10px;
@@ -1105,7 +1107,6 @@ padding-right: 20px;
 .visible-links-shop li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: .5s;
 }
 .visible-links-shop li a:hover{
     color: white;
@@ -1121,7 +1122,6 @@ padding-right: 20px;
 .hidden-links-shop li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: .5s;
 }
 .hidden-links-shop li a:hover{
     color: white;
@@ -1145,6 +1145,7 @@ padding-right: 20px;
     background-color: #000;
     color: #0272b6;
     cursor: pointer;
+    display: block;
 }
 .show-less-ac{
     margin-top: 10px;
@@ -1163,7 +1164,6 @@ padding-right: 20px;
 .visible-links-ac li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: .5s;
 }
 .visible-links-ac li a:hover{
     color: white;
@@ -1179,7 +1179,6 @@ padding-right: 20px;
 .hidden-links-ac li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: .5s;
 }
 .hidden-links-ac li a:hover{
     color: white;
@@ -1217,7 +1216,6 @@ padding-right: 20px;
 .footer-links div ul li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: .5s;
 }
 .footer-links div ul li a:hover{
     color: white;
@@ -1236,7 +1234,6 @@ padding-right: 20px;
     font-size: 14px;
     color: #9ba4aa;
     text-decoration: none;
-    transition: .5s;
 }
 .bottom-footer a:hover{
     color: white;
@@ -1255,7 +1252,6 @@ padding-right: 20px;
 .mobile-footer div ul li a{
     text-decoration: none;
     color: #9ba4aa;
-    transition: .5s;
 }
 .mobile-footer div ul li a:hover{
     color: white;
@@ -1271,7 +1267,6 @@ padding-right: 20px;
 }
 .mobile-copyright p a{
     color: #9ba4aa;
-    transition: .5s;
     text-decoration: none;
 }
 .mobile-copyright p a:hover{
