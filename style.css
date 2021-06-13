@@ -424,6 +424,9 @@ margin-bottom: -50px;
     font-size: 12px;
     color: #0272b6;
 }
+.price-info-link:hover{
+    text-decoration: underline;
+}
 .button-sub{
     font-size: 12px;
     margin-top: 25px;
@@ -471,6 +474,9 @@ margin-bottom: -50px;
     margin-top: 0px;
     color: #0272b6;
     text-decoration: none;
+}
+.m-price-info:hover{
+    text-decoration: underline;
 }
 .m-hero-text button{
     display: block;
@@ -581,6 +587,9 @@ margin-bottom: -50px;
 .offer-text a{
     text-decoration: none;
     color: #0272b6;
+}
+.offer-text a:hover{
+    text-decoration: underline;
 }
 
 .offer-section button{
@@ -697,8 +706,8 @@ padding-right: 20px;
 }
 .mobile-peacock p{
     font-size: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .mobile-peacock button{
     background-color: #0272b6;
@@ -780,7 +789,7 @@ padding-right: 20px;
     background-color: rgba(255, 0, 0, 0);
     cursor: pointer;
 }
-.mobile-phone-button{
+.mobile-phone-button:hover{
     background-color: white;
     color: #0272b6;
 }
@@ -791,14 +800,19 @@ padding-right: 20px;
 }
 .mobile-product-banner{
     font-size: 30px;
+    margin-bottom: 10px;
 }
 .mobile-product-sub{
-    font-size: 20px;
+    font-size: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .mobile-product-images div{
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
    
 }
 .mobile-product-images div p{
@@ -808,6 +822,9 @@ padding-right: 20px;
 .mobile-product-images div a{
     text-decoration: none;
     color: #0272b6;
+}
+.mobile-product-images div a:hover{
+    text-decoration: underline;
 }
 .channel-sec{
     padding-right: 80px;
@@ -927,6 +944,13 @@ padding-right: 20px;
     margin-top: 75px;
     margin-bottom: 60px;
 }
+.product-banner{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.product-banner-subtext{
+    font-size: 20px;
+}
 .product-image-container{
   width: 100%;
 }
@@ -949,6 +973,9 @@ padding-right: 20px;
 .product-images div a{
     text-decoration: none;
     color: #0272b6;
+}
+.product-images div a:hover{
+    text-decoration: underline;
 }
 @media(max-width: 827px){
     .links-sec{
