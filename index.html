@@ -29,22 +29,26 @@
         <a href="#">SIGN IN</a>
         </div>
     </div>
-    <div class="bottom-nav">
-        <div class="bottom-links">
-            <a href="#"><img src="https://polaris.xfinity.com/images/svgs/xfinity_logo.svg" alt="" height="65px" width="65px"></a>
-            <ul>
-                <li><a href="#">Internet</a></li>
-                <li><a href="#">TV & Streaming</a></li>
-                <li><a href="#">Mobile</a></li>
-                <li><a href="#">Home Security</a></li>
-                <li><a href="#">Phone</a></li>
-                <li><a href="#">All Deals</a></li>
-            </ul>
+    <div class="nav-dropdown-container">
+        <div class="bottom-nav">
+            <div class="bottom-links">
+                <a href="#"><img src="https://polaris.xfinity.com/images/svgs/xfinity_logo.svg" alt="" height="65px" width="65px"></a>
+                <ul>
+                    <li class="internet-link"><a href="#">Internet</a></li>
+                    <li><a href="#">TV & Streaming</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Home Security</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li><a href="#">All Deals</a></li>
+                </ul>
+            </div>
+            <div class="shopping">
+                <img src="https://maxcdn.icons8.com/Share/icon/nolan/Shopping/shopping_cart1600.png" alt="" height="30px" width="35px">
+                <img src="https://cdn.pixabay.com/photo/2015/10/01/11/30/magnifying-glass-966886_960_720.png" alt="" height="30px" width="35px">
+                <a id="active-link" class="en-lang"href="">En</a><a class="es-lang"href="">Es</a>
+            </div>
         </div>
-        <div class="shopping">
-            <img src="https://maxcdn.icons8.com/Share/icon/nolan/Shopping/shopping_cart1600.png" alt="" height="30px" width="35px">
-            <img src="https://cdn.pixabay.com/photo/2015/10/01/11/30/magnifying-glass-966886_960_720.png" alt="" height="30px" width="35px">
-            <a id="active-link" class="en-lang"href="">En</a><a class="es-lang"href="">Es</a>
+        <div class="nav-dropdowns">
         </div>
     </div>
     <div class="mobile-nav">
@@ -60,7 +64,7 @@
     <div id="hammenu" class="hamburger-menu">
         <div class="top-ham">
             <div class="internet-button">
-                <button>
+                <button onclick="toggleinternetham()">
                     <div>
                         <p>Internet</p>
                     </div>
@@ -69,8 +73,16 @@
                     </div>
                 </button>
             </div>
+            <div class="internet-ham-dropdown" id="intenet-ham-dropmenu">
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Internet Deals</a></li>
+                    <li><a href="#">Equipment</a></li>
+                    <li><a href="#">Prepaid Internet</a></li>
+                </ul>
+            </div>
             <div class="tv-stream-button">
-                <button>
+                <button onclick="toggletvstreamham()">
                     <div>
                         <p>TV & Streaming</p>
                     </div>
@@ -79,9 +91,19 @@
                     </div>
                 </button>
             </div>
+            <div class="tv-stream-ham-dropdown" id="tv-stream-ham-dropmenu">
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">X1 TV</a></li>
+                    <li><a href="#">Flex Streaming</a></li>
+                    <li><a href="#">Channel Lineup</a></li>
+                    <li><a href="#">Add-On Channels</a></li>
+                    <li><a href="#">Latino</a></li>
+                </ul>
+            </div>
             <a href="#">Mobile</a>
             <div class="home-security-button">
-                <button>
+                <button onclick="togglehomesecham()">
                     <div>
                         <p>Home Security</p>
                     </div>
@@ -90,8 +112,15 @@
                     </div>
                 </button>
             </div>
+            <div class="home-sec-ham-dropdown" id="home-sec-ham-dropdown">
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Professional Monitioring</a></li>
+                    <li><a href="#">Self Protection</a></li>
+                </ul>
+            </div>
             <div class="home-phone-button">
-                <button>
+                <button onclick="togglehomephoneham()">
                     <div>
                         <p>Home Phone</p>
                     </div>
@@ -100,8 +129,15 @@
                     </div>
                 </button>
             </div>
+            <div class="home-phone-ham-dropdown" id="home-phone-ham-dropdown">
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Equipment</a></li>
+                </ul>
+            </div>
             <div class="all-deals-button">
-                <button>
+                <button onclick="togglealldealsham()">
                     <div>
                         <p>All Deals</p>
                     </div>
@@ -109,6 +145,13 @@
                         <img src="https://www.downloadclipart.net/medium/caret-png-file.png" alt="" height="20px" width="20px">
                     </div>
                 </button>
+                <div class="all-deals-ham-dropdown" id="all-deals-ham-dropdown">
+                    <ul>
+                        <li><a href="#">All Deals</a></li>
+                        <li><a href="#">TV & Internet</a></li>
+                        <li><a href="#">Find My Deal</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="bottom-ham">

@@ -71,3 +71,53 @@ function toggleshowac(){
         hidden.style.display = "none";
     }
 };
+
+function toggleinternetham(){
+    var dropdown = document.getElementById("intenet-ham-dropmenu");
+    if(dropdown.style.display === "none"){
+        dropdown.style.display = "block";
+    }
+    else{
+        dropdown.style.display = "none"
+    }
+};
+
+function toggletvstreamham(){
+    var dropdown = document.getElementById("tv-stream-ham-dropmenu");
+    if(dropdown.style.display === "none"){
+        dropdown.style.display = "block";
+    }
+    else{
+        dropdown.style.display = "none"
+    }
+};
+
+function togglehomesecham(){
+    var dropdown = document.getElementById("home-sec-ham-dropdown");
+    if(dropdown.style.display === "none"){
+        dropdown.style.display = "block";
+    }
+    else{
+        dropdown.style.display = "none"
+    }
+};
+
+function togglehomephoneham(){
+    var dropdown = document.getElementById("home-phone-ham-dropdown");
+    if(dropdown.style.display === "none"){
+        dropdown.style.display = "block";
+    }
+    else{
+        dropdown.style.display = "none"
+    }
+};
+
+function togglealldealsham(){
+    var dropdown = document.getElementById("all-deals-ham-dropdown");
+    if(dropdown.style.display === "none"){
+        dropdown.style.display = "block";
+    }
+    else{
+        dropdown.style.display = "none"
+    }
+};
