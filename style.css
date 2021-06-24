@@ -6,7 +6,7 @@ body{
 /*NAV START*/
 
 }
-@media(max-width:1000px){
+@media(max-width:1050px){
     .top-nav div{
         display: none;
     }
@@ -17,7 +17,7 @@ body{
         border: none;
     }
 }
-@media(min-width:1000px){
+@media(min-width:1050px){
     .mobile-nav div{
         display: none;
     }
@@ -370,6 +370,132 @@ color: white;
 }
 .ham-icons div button:hover p{
     color: white;
+}
+
+.internet-drop-container{
+    position: relative;
+}
+.bottom-nav .bottom-links ul .internet-drop-con:hover .internet-dropdown{
+    background-color: #000;
+}
+.bottom-nav .bottom-links ul .internet-drop-con:hover .internet-dropdown li{
+    display: block;
+}
+.internet-dropdown{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: 128px;
+    padding: 35px 20px 10px 20px;
+    z-index: 98;
+}
+
+.internet-dropdown li{
+    margin-bottom: 20px;
+    display: none;
+}
+.tvstreaming-drop-con{
+    position: relative;
+}
+.bottom-nav .bottom-links ul .tvstreaming-drop-con:hover .tvstreaming-dropdown{
+	background-color: #000;
+}
+.bottom-nav .bottom-links ul .tvstreaming-drop-con:hover .tvstreaming-dropdown li{
+	display:block;
+}
+.tvstreaming-dropdown{
+    list-style: none;
+    position: absolute;
+    bottom: -290px;
+    left: -20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 35px 20px 0px 20px;
+    z-index: 98;
+    width: 175px;
+}
+
+.tvstreaming-dropdown li{
+    margin-bottom: 20px;
+    display: none;
+}
+
+.homesec-drop-con{
+    position: relative;
+}
+.homesec-dropdown{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: -20px;
+    padding: 35px 20px 0px 20px;
+    z-index: 98;
+}
+.bottom-nav .bottom-links ul .homesec-drop-con:hover .homesec-dropdown{
+	background-color: #000;
+}
+.bottom-nav .bottom-links ul .homesec-drop-con:hover .homesec-dropdown li{
+	display: block;
+}
+.homesec-dropdown li{
+    display: none;
+    margin-bottom: 20px;
+    width: 190px;
+}
+.homephone-drop-con{
+    position: relative;
+}
+
+.homephone-dropdown{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: -20px;
+    padding: 35px 20px 0px 20px;
+    z-index: 98;
+}
+.homephone-dropdown li{
+    display: none;
+    margin-bottom: 20px;
+    width: 190px;
+}
+
+.bottom-nav .bottom-links ul .homephone-drop-con:hover .homephone-dropdown{
+	background-color: #000;
+}
+.bottom-nav .bottom-links ul .homephone-drop-con:hover .homephone-dropdown li{
+	display: block;
+}
+.deals-drop-con{
+    position: relative;
+}
+.deals-dropdown{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: -20px;
+    padding: 35px 20px 0px 20px;
+    z-index: 98;
+}
+.deals-dropdown li{
+    display: none;
+    margin-bottom: 20px;
+    width: 190px;
+}
+.bottom-nav .bottom-links ul .deals-drop-con:hover .deals-dropdown{
+	background-color: #000;
+}
+.bottom-nav .bottom-links ul .deals-drop-con:hover .deals-dropdown li{
+	display: block;
 }
 /*NAV END*/
 
@@ -1339,4 +1465,12 @@ padding-right: 20px;
 }
 .mobile-copyright p a:hover{
     color: white;
+}
+.nav-dropdowns{
+    display: flex;
+    position: relative;
+}
+.nav-dropdowns div{
+    position: absolute;
+    z-index: 98;
 }

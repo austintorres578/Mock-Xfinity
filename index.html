@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d4fcce6556.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Mock Xfinity</title>
 </head>
@@ -29,17 +30,47 @@
         <a href="#">SIGN IN</a>
         </div>
     </div>
-    <div class="nav-dropdown-container">
         <div class="bottom-nav">
             <div class="bottom-links">
                 <a href="#"><img src="https://polaris.xfinity.com/images/svgs/xfinity_logo.svg" alt="" height="65px" width="65px"></a>
                 <ul>
-                    <li class="internet-link"><a href="#">Internet</a></li>
-                    <li><a href="#">TV & Streaming</a></li>
+                    <li class="internet-drop-con"><a href="#">Internet</a>
+                    <ul class="internet-dropdown">
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Internet Deals</a></li>
+                        <li><a href="#">Equipment</a></li>
+                        <li><a href="#">Prepaid Internet</a></li>
+                    </ul></li>
+                    <li class="tvstreaming-drop-con"><a href="#">TV & Streaming</a>
+                    <ul class="tvstreaming-dropdown">
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">X1 TV</a></li>
+                        <li><a href="#">Flex Streaming</a></li>
+                        <li><a href="#">Channel Lineup</a></li>
+                        <li><a href="#">Add-On Channels</a></li>
+                        <li><a href="#">Latino</a></li>
+                    </ul></li>
                     <li><a href="#">Mobile</a></li>
-                    <li><a href="#">Home Security</a></li>
-                    <li><a href="#">Phone</a></li>
-                    <li><a href="#">All Deals</a></li>
+                    <li class="homesec-drop-con"><a href="#">Home Security</a>
+                        <ul class="homesec-dropdown">
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Professional Monitoring</a></li>
+                            <li><a href="#">Equipment</a></li>
+                        </ul> </li>
+                    <li class="homephone-drop-con"><a href="#">Home Phone</a>
+                        <ul class="homephone-dropdown">
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Equipment</a></li>
+                        </ul>
+                    </li>
+                    <li class="deals-drop-con"><a href="#">All Deals</a>
+                        <ul class="deals-dropdown">
+                            <li><a href="#">All Deals</a></li>
+                            <li><a href="#">TV & Internet</a></li>
+                            <li><a href="#">Find My Deal</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div class="shopping">
@@ -48,9 +79,6 @@
                 <a id="active-link" class="en-lang"href="">En</a><a class="es-lang"href="">Es</a>
             </div>
         </div>
-        <div class="nav-dropdowns">
-        </div>
-    </div>
     <div class="mobile-nav">
         <div class="m-nav-left">
             <a href=""><img src="https://polaris.xfinity.com/images/svgs/xfinity_logo.svg" alt="" height="65px" width="65px"></a>
