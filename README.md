@@ -1,8 +1,9 @@
 # Mock-Xfinity
-<p>This is my second mock site that i am using to put in my portfolio as proof that i can follow a given design. Im trying to be as close to the original site as possible while learning whatever is neccesary to complete the task</p>
-<p>Tech used</p>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-</ul>
+
+<h1>Clone Xfinity</h1>
+
+<p>This Project is my second clone website, the goal was to see how closely I can recreate an official website without looking at the original code</p>
+
+<h3>What I Learned</h3>
+
+<p>This project helped me build confidence in myself when it comes to taking a design and coverting it to code</p>
