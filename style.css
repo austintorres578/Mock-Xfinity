@@ -138,14 +138,15 @@ color: white;
     padding-right: 5px;
 }
 .m-nav-right{
+    align-items: center;
     margin-top: auto;
     margin-bottom: auto;
-    
 }
 .m-nav-right img{
     margin-right: 15px;
 }
 .m-nav-right button{
+    padding: 0px;
     background-color: black;
     border: none;
     cursor: pointer;
@@ -781,7 +782,7 @@ margin-bottom: -50px;
     margin-left: auto;
 }
 .fed-image{
-    background-image: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/One-Up-Tile/04262021/Tile_desktop.png);
+    background-image: url("img/main imgs/desktop/Tile_desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -821,7 +822,7 @@ margin-bottom: -50px;
     padding-right: 20px;
 }
 .mobile-fed-img{
-    background-image: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/One-Up-Tile/04262021/Tile_mobile.png);
+    background-image: url("img/Tile_mobile.png");
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
@@ -860,7 +861,7 @@ padding-right: 20px;
     margin-top: 20px;
 }
 .mobile-peacock{
-    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/Two-Up-Tiles/01142021_NED/HP_Peacock_OfficeUpdate_PromoTile_Mobile.jpg);
+    background: url("img/HP_Peacock_OfficeUpdate_PromoTile_Mobile.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -889,7 +890,7 @@ padding-right: 20px;
     background-color: #025c94;
 }
 .mobile-disney{
-    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/Two-Up-Tiles/04152021/DisneyHomePageRightPromoDesktop.jpg);
+    background: url("img/DisneyHomePageRightPromoDesktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -926,7 +927,7 @@ padding-right: 20px;
 }
 
 .mobile-phone-img{
-    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/One-Up-Tile/04152021/XM40CoreHomepageMobile.jpg);
+    background: url("img/XM40CoreHomepageMobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1003,7 +1004,7 @@ padding-right: 20px;
     margin-top: 20px;
 }
 .peacock{
-    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/Two-Up-Tiles/01142021_NED/HP_Peacock_OfficeUpdate_PromoTile_Mobile.jpg);
+    background: url("img/HP_Peacock_OfficeUpdate_PromoTile_Mobile.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -1034,7 +1035,7 @@ padding-right: 20px;
     background-color: #025c94;
 }
 .disney{
-    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/Two-Up-Tiles/04152021/DisneyHomePageRightPromoDesktop.jpg);
+    background: url("img/DisneyHomePageRightPromoDesktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1072,7 +1073,7 @@ padding-right: 20px;
     margin-right: auto;
 }
 .phone-img{
-    background: url(https://cdn.comcast.com/-/media/Images/www_xfinity_com/HomePage/One-Up-Tile/04152021/XM40CoreHomepageDesktop.jpg);
+    background: url("img/XM40CoreHomepageDesktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
